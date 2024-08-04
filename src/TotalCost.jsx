@@ -13,7 +13,9 @@ const total_amount = totalCosts.venue + totalCosts.av + totalCosts.meals;
         <div>
           <h2 id="pre_fee_cost_display" className="price"> ${total_amount}</h2>
          
-            <div className="rende-items"> <ItemsDisplay /></div>
+            <div className="render-items"> 
+            <ItemsDisplay />
+            </div>
         </div>
       </div>
     </div>
